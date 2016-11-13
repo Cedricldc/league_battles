@@ -9,4 +9,6 @@
     </author>
     <icon src="icon.png" gap:role="default"/>
     <splash src="splash.png"/>
+    <preference name="splashscreen" value="splash" />
+    <preference name="splashScreenDelay" value="10000" />
 </widget>
