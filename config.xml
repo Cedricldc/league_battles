@@ -8,5 +8,5 @@
         Cédric Leduc
     </author>
     <icon src="icon.png" gap:role="default"/>
-    <gap:splash src="splashscreen2.png"
+    <gap:splash src="splashscreen2.png"/>
 </widget>
