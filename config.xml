@@ -8,7 +8,7 @@
         Cédric Leduc
     </author>
     <icon src="icon.png" gap:role="default"/>
-    <preference name="splashscreen" value="splash" />
-    <preference name="splash-screen-duration" value="10000"/>
-    <splash src="splash.png"/>
+    <preference name="splashcreen" value="splash" />
+    <preference name="splashScreenDelay" value="10000" />
+    <splash src="splash.png" />
 </widget>
