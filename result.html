@@ -8,6 +8,22 @@
 <body>
   <h1>Résultats</h1>
   <h2>Mes résultats</h2><h2>Autres  ok</h2>
+<?php
+$connect = mysqli_connect("localhost", "root", "", "livredor");
+$resultat = mysqli_query( $connect, $requete);
+echo '<table border="1"/>';
+while( $tab_ligne = mysqli_fetch_array($resultat))
+{
+	echo "<tr>";
+	echo "<td>",$id = $tab_ligne['id'],"</td>";
+	echo "<td>",$tab_ligne['pseudo'],"</td>";
+	echo "<td>",$tab_ligne['classement'],"</td>";
+	echo "</tr>";
+}
+echo '</table>';
+mysqli_close ( $connect );
+?>
+  
 <hr>
 <p>
   Ici des résultats
