@@ -23,7 +23,7 @@
     $query = mysqli_query($connect, $requete);
   }
   ?>
-  <form action="signup.php" method="post">
+  <form action="index.php" method="post">
     <p>Pseudo</p>
     <input type="text" name="pseudo" required="required"/><br>
     <p>Prénom</p>
