@@ -2,18 +2,18 @@
 <html>
 <head>
   <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
   <title>home</title>
-  <link rel="stylsheet" type="text/css" href="style.css"/>
 </head>
 <body>
-  <img src="icon.png">
+  <img src="logo_lb.png" class="logo">
 
   <form action="profil.html" method="post">
     <p>Pseudo</p>
     <input type="text" name="pseudo" size=""/><br>
     <p>Mot de passe</p>
     <input type="text" name="mdp" size=""/><br>
-    <a href="signup.html">Créer un compte</a>
+    <a href="signup.php">Créer un compte</a>
     <input type="submit" name="login"/>
 
 
