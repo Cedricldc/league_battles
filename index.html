@@ -8,18 +8,14 @@
 <body>
   <img src="logo_lb.png" class="logo">
 
-  <form action="profil.html" method="post">
-    <p>Pseudo</p>
-    <input type="text" name="pseudo" size=""/><br>
-    <p>Mot de passe</p>
-    <input type="text" name="mdp" size=""/><br>
+<div class="home-container">
+  <form action="profil.html" method="">
+    <p class="form-name">Pseudo</p> <input type="text" name="pseudo" size=""/><br>
+    <p class="form-name">Password</p> <input type="text" name="mdp" size=""/><br>
     <a href="signup.php">Créer un compte</a>
     <input type="submit" name="login"/>
-
-
   </form>
-   <?php
-  mysqli_close($connect);
-  ?>
+</div>
+
 </body>
 </html>

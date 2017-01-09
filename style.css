@@ -1,6 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Marcellus');
+
 .logo {
     display: block;
     max-width: 300px;
     margin: 0 auto;
     width: 75%;
+}
+
+body {
+  margin: 0;
+  padding-top: 30px;
+  background-color: #143546;
+}
+
+.form-name {
+  color: #F8E366;
+  font-family: 'Marcellus', serif;
+}
+
+.home-container {
+	margin: 10%;
+}
+
+form {
+  width: 125px;
+  margin: auto;
+}
+
+form input {
+  display: block;
+  margin: auto;
+}
+
+a {
+  color: #F8E366;
+  font-family: 'Marcellus', serif;
+}
+
+input[type=submit] {
+  padding: 5px 10px;
+  background-color: #F8E366;
+  color: #143546;
+  font-family: 'Marcellus', serif;
+  font-size: 15px;
+  margin-top: 15px;
 }
