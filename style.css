@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Marcellus');
-
 .logo {
     display: block;
     max-width: 300px;
@@ -7,49 +6,73 @@
     width: 75%;
 }
 
+.avatar {
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+    max-width: 200px;
+}
+
 body {
-  margin: 0;
-  padding-top: 50px;
-  background-color: #143546;
+    margin: 0;
+    padding-top: 50px;
+    background-color: #143546;
 }
 
 .form-name {
-  color: #F8E366;
-  font-family: 'Marcellus', serif;
+    color: #F8E366;
+    font-family: 'Marcellus', serif;
 }
 
 .home-container {
-	position: relative;
-  left: -5%;
-  margin-top: 10%;
+    position: relative;
+    left: -5%;
+    margin-top: 10%;
 }
 
 form {
-  width: 125px;
-  margin: auto;
+    width: 125px;
+    margin: auto;
 }
 
 form input {
-  display: block;
-  margin: auto;
+    display: block;
+    margin: auto;
 }
 
 a {
-  color: #F8E366;
-  font-family: 'Marcellus', serif;
+    color: #F8E366;
+    font-family: 'Marcellus', serif;
 }
 
 .create-account {
-  display: block;
-  width: 200px;
+    display: block;
+    width: 200px;
 }
 
 input[type=submit] {
-  padding: 5px 10px;
-  background-color: #F8E366;
-  color: #143546;
-  font-family: 'Marcellus', serif;
-  font-size: 15px;
-  margin-top: 15px;
-  margin-bottom: 30px;
+    padding: 5px 10px;
+    background-color: #F8E366;
+    color: #143546;
+    font-family: 'Marcellus', serif;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.profil-container {
+    text-align: center;
+}
+
+.tab-section {
+    margin-top: 50px;
+    border-top: 1px solid #F8E366;
+    border-bottom: 1px solid #F8E366;
+}
+
+.tab-link {
+    height: 45px;
+    padding-top: 20px;
+    border-top: 1px solid #F8E366;
+    border-bottom: 1px solid #F8E366;
 }
