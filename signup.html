@@ -7,18 +7,19 @@
 </head>
 <body>
   <img src="logo_lb.png" class="logo">
+  <div class="home-container">
   <form action="index.php" method="post">
-    <p>Pseudo</p>
+    <p class="form-name">Pseudo</p>
     <input type="text" name="pseudo" required="required"/><br>
-    <p>Prénom</p>
+    <p class="form-name">Prénom</p>
     <input type="text" name="prenom" required="required"/><br>
-    <p>Nom</p>
+    <p class="form-name">Nom</p>
     <input type="text" name="nom" required="required"/><br>
-    <p>Mail</p>
+    <p class="form-name">Mail</p>
     <input type="text" name="mail" required="required"/><br>
-    <p>Mot de passe</p>
+    <p class="form-name">Mot de passe</p>
     <input type="text" name="password" required="required"/><br>
-    <p>Confirmation du mot de passe</p>
+    <p class="form-name">Confirmation du mot de passe</p>
     <input type="text" name="mdpcheck" required="required"/><br>
 
     <input type="submit" name="signup" value="Confirmer"/>
@@ -26,8 +27,7 @@
 
   </form>
 
-  <?php
-  mysqli_close($connect);
-  ?>
+</div>
+
 </body>
 </html>
