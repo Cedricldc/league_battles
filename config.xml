@@ -7,7 +7,7 @@
     <author href="http://www.univ-pairs8.fr" email="cedric.leduc@icloud.fr">
         Cédric Leduc
     </author>
-    <icon src="logo_lb.png" gap:role="default"/>
+    <icon src="icon.png" gap:role="default"/>
     <preference name="splashcreen" value="splash"/>
     <preference name="splashScreenDelay" value="10000"/>
     <splash src="splash.png"/>
