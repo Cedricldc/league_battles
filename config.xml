@@ -8,7 +8,9 @@
         Cédric Leduc
     </author>
     <icon src="icon.png" gap:role="default"/>
+    <platform name="android">
     <preference name="splashcreen" value="splash"/>
     <preference name="splashScreenDelay" value="10000"/>
     <splash src="splash.png"/>
+  </platform>
 </widget>
