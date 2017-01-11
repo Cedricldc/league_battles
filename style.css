@@ -89,3 +89,12 @@ input[type=submit] {
 .border-left {
     border-left: 1px solid #F8E366;
 }
+.back {
+  position: absolute;
+  padding: 10px;
+}
+
+.upper {
+    position: relative;
+    top: -15px;
+}
